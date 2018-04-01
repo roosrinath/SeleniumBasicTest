@@ -1,0 +1,12 @@
+FireFox Driver Property
+
+System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
+driver = new FirefoxDriver();
+
+Chrome Driver Property
+
+System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();
+
+System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+WebDriver driver = new ChromeDriver();

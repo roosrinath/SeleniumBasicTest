@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Test Automation]">
+  <test name="TestNG(failed)">
+    <classes>
+      <class name="SampleTests.InvocationCount">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- SampleTests.InvocationCount -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [Selenium Test Automation] -->

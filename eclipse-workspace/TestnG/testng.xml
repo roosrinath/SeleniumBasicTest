@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Selenium Test Automation"  >
+  <test name="TestNG" >
+    <classes>
+    
+       <class name="BasicSeleniumTest.FindAllElementsPage"> </class>
+       <class name="BasicSeleniumTest.TotalFrames"> </class>
+       <class name="BasicSeleniumTest.TotalTextboxesWebPages"> </class>
+       <class name="BasicSeleniumTest.VerifyAllObjectsInPage"> </class>
+       <class name="BasicSeleniumTest.VerifyCurrentPageUrl"> </class>
+       <class name="BasicSeleniumTest.VerifyImgsOfPages"> </class>
+       <class name="BasicSeleniumTest.VerifyPageTitle"> </class>
+       <class name="BasicSeleniumTest.VerifyTotalCheckBoxex"> </class>
+       <class name="BasicSeleniumTest.VerifyTotalDropDown"> </class>
+       <class name="BasicSeleniumTest.VerifyTotalRadiobuttons"> </class>
+       
+        
+    </classes>
+  </test>
+</suite>   

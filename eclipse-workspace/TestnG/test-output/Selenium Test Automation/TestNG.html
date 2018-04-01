@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  TestNG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Mar 31 15:40:06 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>221 seconds (221383 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyAllObjectsInPage.AllUrlsOfPages()'><b>AllUrlsOfPages</b><br>Test class: BasicSeleniumTest.VerifyAllObjectsInPage</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyAllObjectsInPage@f6c48ac</td></tr>
+<tr>
+<td title='BasicSeleniumTest.FindAllElementsPage.TestFindAllElementsPage()'><b>TestFindAllElementsPage</b><br>Test class: BasicSeleniumTest.FindAllElementsPage</td>
+<td></td>
+<td>22</td>
+<td>BasicSeleniumTest.FindAllElementsPage@4dfa3a9d</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyTotalDropDown.TestTotalDropDownlist()'><b>TestTotalDropDownlist</b><br>Test class: BasicSeleniumTest.VerifyTotalDropDown</td>
+<td></td>
+<td>24</td>
+<td>BasicSeleniumTest.VerifyTotalDropDown@31ef45e3</td></tr>
+<tr>
+<td title='BasicSeleniumTest.TotalFrames.TestTotalFrames()'><b>TestTotalFrames</b><br>Test class: BasicSeleniumTest.TotalFrames</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.TotalFrames@6eebc39e</td></tr>
+<tr>
+<td title='BasicSeleniumTest.TotalFrames.TestTotalFramesWithNames()'><b>TestTotalFramesWithNames</b><br>Test class: BasicSeleniumTest.TotalFrames</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.TotalFrames@6eebc39e</td></tr>
+<tr>
+<td title='BasicSeleniumTest.TotalTextboxesWebPages.TestTotalTextboxesWebPages()'><b>TestTotalTextboxesWebPages</b><br>Test class: BasicSeleniumTest.TotalTextboxesWebPages</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.TotalTextboxesWebPages@464bee09</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyAllObjectsInPage.TestVerifyAllObjectsInPage()'><b>TestVerifyAllObjectsInPage</b><br>Test class: BasicSeleniumTest.VerifyAllObjectsInPage</td>
+<td></td>
+<td>1</td>
+<td>BasicSeleniumTest.VerifyAllObjectsInPage@f6c48ac</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyImgsOfPages.TestVerifyImagesOfPages()'><b>TestVerifyImagesOfPages</b><br>Test class: BasicSeleniumTest.VerifyImgsOfPages</td>
+<td></td>
+<td>2</td>
+<td>BasicSeleniumTest.VerifyImgsOfPages@239963d8</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyPageTitle.TestVerifyPageTitle()'><b>TestVerifyPageTitle</b><br>Test class: BasicSeleniumTest.VerifyPageTitle</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyPageTitle@3abbfa04</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyPageTitle.TestVerifyPageTitlewithBoolean()'><b>TestVerifyPageTitlewithBoolean</b><br>Test class: BasicSeleniumTest.VerifyPageTitle</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyPageTitle@3abbfa04</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyTotalCheckBoxex.TestVerifyTotalCheckBoxex()'><b>TestVerifyTotalCheckBoxex</b><br>Test class: BasicSeleniumTest.VerifyTotalCheckBoxex</td>
+<td></td>
+<td>34</td>
+<td>BasicSeleniumTest.VerifyTotalCheckBoxex@57fffcd7</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyTotalRadiobuttons.TestVerifyTotalRadiobuttons()'><b>TestVerifyTotalRadiobuttons</b><br>Test class: BasicSeleniumTest.VerifyTotalRadiobuttons</td>
+<td></td>
+<td>12</td>
+<td>BasicSeleniumTest.VerifyTotalRadiobuttons@598067a5</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyCurrentPageUrl.VerfyCurrentPageUrl3()'><b>VerfyCurrentPageUrl3</b><br>Test class: BasicSeleniumTest.VerifyCurrentPageUrl</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyCurrentPageUrl@13deb50e</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyCurrentPageUrl.verifyCurrentPageUrlTest()'><b>verifyCurrentPageUrlTest</b><br>Test class: BasicSeleniumTest.VerifyCurrentPageUrl</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyCurrentPageUrl@13deb50e</td></tr>
+<tr>
+<td title='BasicSeleniumTest.VerifyCurrentPageUrl.verifyCurrentPageUrlTestwithString()'><b>verifyCurrentPageUrlTestwithString</b><br>Test class: BasicSeleniumTest.VerifyCurrentPageUrl</td>
+<td></td>
+<td>0</td>
+<td>BasicSeleniumTest.VerifyCurrentPageUrl@13deb50e</td></tr>
+</table><p>
+</body>
+</html>
